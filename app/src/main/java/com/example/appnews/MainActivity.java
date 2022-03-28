@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
     ProgressDialog dialog;
     Button b1,b2,b3,b4,b5,b6,b7;
     SearchView searchView;
+    SwipeRefreshLayout refreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +54,19 @@ public class MainActivity extends AppCompatActivity implements SelectListener, V
         dialog.setTitle("Fetching News Articles");
         dialog.show();
 
+
+        //RefreshLayout
+        refreshLayout = findViewById(R.id.refresh_layout);
+
+        refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                RequestManager manager = new RequestManager(MainActivity.this );
+                manager.getNewsHeadlines(listener, "general", null);
+                refreshLayout.setRefreshing(false);
+                Toast.makeText(MainActivity.this, "Refreshed To General", Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
         b1 = findViewById(R.id.btn_1);

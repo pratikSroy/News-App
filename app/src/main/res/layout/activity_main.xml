@@ -23,8 +23,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="6dp"
                 android:padding="6dp"
+                android:textSize="12sp"
                 android:text="general"
-                android:textSize="12sp">
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color">
 
             </Button>
 
@@ -35,7 +37,9 @@
                 android:layout_margin="6dp"
                 android:padding="6dp"
                 android:text="business"
-                android:textSize="12sp">
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color">
 
             </Button>
 
@@ -46,7 +50,9 @@
                 android:layout_margin="6dp"
                 android:padding="6dp"
                 android:text="entertainment"
-                android:textSize="12sp">
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color">
 
             </Button>
 
@@ -58,7 +64,9 @@
                 android:layout_margin="6dp"
                 android:padding="6dp"
                 android:text="health"
-                android:textSize="12sp">
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color">
 
             </Button>
 
@@ -69,7 +77,9 @@
                 android:layout_margin="6dp"
                 android:padding="6dp"
                 android:text="science"
-                android:textSize="12sp">
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color">
 
             </Button>
 
@@ -80,7 +90,9 @@
                 android:layout_margin="6dp"
                 android:padding="6dp"
                 android:text="sports"
-                android:textSize="12sp">
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color">
 
             </Button>
 
@@ -91,7 +103,9 @@
                 android:layout_margin="6dp"
                 android:padding="6dp"
                 android:text="technology"
-                android:textSize="12sp">
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/app_color">
 
             </Button>
 

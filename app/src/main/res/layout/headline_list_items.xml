@@ -27,21 +27,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/text_title"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:maxLines="3"
-                android:textColor="@color/black">
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-light">
+
             </TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/text_source"
-                android:textSize="18sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 android:layout_marginTop="6dp"
                 android:maxLines="1"
-                android:textColor="@color/purple_500">
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/app_color">
             </TextView>
 
         </LinearLayout>
